@@ -115,13 +115,13 @@
     {
       "id": 3,
       "question": "Яка тварина найбільша серед ссавців?",
-      "correctAnswers": [1],
+      "correctAnswers": [3],
       "answers": [
         {
           "id": 1,
           "version": "А",
-          "answer": "Синій кит",
-          "isCorrect": true
+          "answer": "Жираф",
+          "isCorrect": false
         },
         {
           "id": 2,
@@ -132,8 +132,8 @@
         {
           "id": 3,
           "version": "С",
-          "answer": "Жираф",
-          "isCorrect": false
+          "answer": "Синій кит",
+          "isCorrect": true
         },
         {
           "id": 4,
@@ -146,13 +146,13 @@
     {
       "id": 4,
       "question": "Хто написав 'Кобзар'?",
-      "correctAnswers": [1],
+      "correctAnswers": [3],
       "answers": [
         {
           "id": 1,
           "version": "А",
-          "answer": "Тарас Шевченко",
-          "isCorrect": true
+          "answer": "Іван Франко",
+          "isCorrect": false
         },
         {
           "id": 2,
@@ -163,8 +163,8 @@
         {
           "id": 3,
           "version": "С",
-          "answer": "Іван Франко",
-          "isCorrect": false
+          "answer": "Тарас Шевченко",
+          "isCorrect": true
         },
         {
           "id": 4,
@@ -177,19 +177,19 @@
     {
       "id": 5,
       "question": "Найвища гора у світі?",
-      "correctAnswers": [1],
+      "correctAnswers": [2],
       "answers": [
         {
           "id": 1,
           "version": "А",
-          "answer": "Еверест",
-          "isCorrect": true
+          "answer": "Кіліманджаро",
+          "isCorrect": false
         },
         {
           "id": 2,
           "version": "В",
-          "answer": "Кіліманджаро",
-          "isCorrect": false
+          "answer": "Еверест",
+          "isCorrect": true
         },
         {
           "id": 3,
@@ -208,13 +208,13 @@
     {
       "id": 6,
       "question": "Скільки океанів у світі?",
-      "correctAnswers": [1],
+      "correctAnswers": [4],
       "answers": [
         {
           "id": 1,
           "version": "А",
-          "answer": "5",
-          "isCorrect": true
+          "answer": "6",
+          "isCorrect": false
         },
         {
           "id": 2,
@@ -225,27 +225,27 @@
         {
           "id": 3,
           "version": "С",
-          "answer": "6",
+          "answer": "7",
           "isCorrect": false
         },
         {
           "id": 4,
           "version": "D",
-          "answer": "7",
-          "isCorrect": false
+          "answer": "5",
+          "isCorrect": true
         }
       ]
     },
     {
       "id": 7,
       "question": "Яка країна вважається батьківщиною піци?",
-      "correctAnswers": [1],
+      "correctAnswers": [3],
       "answers": [
         {
           "id": 1,
           "version": "А",
-          "answer": "Італія",
-          "isCorrect": true
+          "answer": "Іспанія",
+          "isCorrect": false
         },
         {
           "id": 2,
@@ -256,8 +256,8 @@
         {
           "id": 3,
           "version": "С",
-          "answer": "Іспанія",
-          "isCorrect": false
+          "answer": "Італія",
+          "isCorrect": true
         },
         {
           "id": 4,
@@ -318,7 +318,7 @@
         {
           "id": 3,
           "version": "С",
-          "answer": "Льюїс Керролл",
+          "answer": "Оноре де Бальзак",
           "isCorrect": false
         },
         {
@@ -332,13 +332,13 @@
     {
       "id": 10,
       "question": "Які планети належать до земної групи планет Сонячної системи?",
-      "correctAnswers": [1, 2],
+      "correctAnswers": [2, 4],
       "answers": [
         {
           "id": 1,
           "version": "A",
-          "answer": "Меркурій",
-          "isCorrect": true
+          "answer": "Марс",
+          "isCorrect": false
         },
         {
           "id": 2,
@@ -355,8 +355,8 @@
         {
           "id": 4,
           "version": "D",
-          "answer": "Марс",
-          "isCorrect": false
+          "answer": "Меркурій",
+          "isCorrect": true
         }
       ]
     },
@@ -393,8 +393,8 @@
     },
     {
       "id": 12,
-      "question": "Які з цих видів кави містять кавеїн?",
-      "correctAnswers": [1, 2],
+      "question": "Які з цих видів кави містять кофеїн?",
+      "correctAnswers": [1, 4],
       "answers": [
         {
           "id": 1,
@@ -405,8 +405,8 @@
         {
           "id": 2,
           "version": "B",
-          "answer": "Робуста",
-          "isCorrect": true
+          "answer": "Еспресо",
+          "isCorrect": false
         },
         {
           "id": 3,
@@ -417,8 +417,8 @@
         {
           "id": 4,
           "version": "D",
-          "answer": "Еспресо",
-          "isCorrect": false
+          "answer": "Робуста",
+          "isCorrect": true
         }
       ]
     }
