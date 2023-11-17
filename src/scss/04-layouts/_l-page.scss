@@ -1,5 +1,6 @@
 .l-page {
   &-content {
     height: 100vh;
+    height: var(--app-height);
   }
 }

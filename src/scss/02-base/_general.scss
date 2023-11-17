@@ -2,6 +2,10 @@
 // Be very carefully since it affects all elements and styles!
 @use "sass:list";
 
+:root {
+  --app-height: 100%;
+}
+
 html {
   background: $color-bg;
   color: $color-text;
