@@ -16,6 +16,7 @@ export default function GameZone({
 }: QuestionsDataProps) {
   const [correctAnswersChosen, setCorrectAnswersChosen]: any = useState([]);
   const [selectedAnswers, setSelectedAnswers]: any = useState({});
+  const [isAnswering, setIsAnswering] = useState(false);
 
   const checkAnswer = (time: number, callback: any) => {
     setTimeout(() => {
@@ -24,7 +25,14 @@ export default function GameZone({
   };
 
   const handleClickButton = (answer: any) => {
+    if (isAnswering) {
+      return;
+    }
+
+    setIsAnswering(true);
+
     setSelectedAnswers(answer);
+
     checkAnswer(100, () => {
       const updatedSelectedAnswers = {
         ...selectedAnswers,
@@ -51,6 +59,8 @@ export default function GameZone({
       } else {
         setStopGame(true);
       }
+
+      setIsAnswering(false);
     });
   };
   useEffect(() => {
