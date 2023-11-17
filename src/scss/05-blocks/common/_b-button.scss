@@ -1,0 +1,37 @@
+@use "sass:color";
+
+.b-button {
+  @include g-button;
+
+  background: $color-button-main-bg;
+  border: 2px solid $color-button-main-border;
+  border-radius: $global-radius;
+  color: $color-button-main-text;
+  font-weight: 600;
+  padding: rh(0 6);
+
+  @include hover-supported {
+    &:hover {
+      background: $color-button-main-bg-hover;
+      border-color: $color-button-main-border-hover;
+      color: $color-button-main-text-hover;
+      text-decoration: none;
+    }
+  }
+
+  &:disabled,
+  &.m-disabled {
+    @include g-button(disabled);
+  }
+
+  &:active,
+  &.m-active {
+    background: $color-button-main-bg-active;
+    border-color: $color-button-main-border-active;
+    color: $color-button-main-text-active;
+  }
+
+  &.m-width_full {
+    width: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+@mixin g-button($_mod: default) {
+  @if $_mod == default {
+    align-items: center;
+    border: 1px solid;
+    cursor: pointer;
+    display: inline-flex;
+    height: $size-input-height;
+    justify-content: center;
+    max-width: 100%;
+    min-width: $min-width-button;
+    transition: $motion-ease;
+    transition-property: background-color, color, border;
+    user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+
+    &.m-sm-100 {
+      @include media(md-down) {
+        width: 100%;
+      }
+    }
+  }
+
+  @if $_mod == disabled {
+    background-color: $color-black-40;
+    border-color: $color-black-40;
+    color: $color-black-5;
+    pointer-events: none;
+  }
+}

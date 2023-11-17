@@ -1,0 +1,56 @@
+.b-customSnippetPrice {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 240px auto;
+  margin: 2px 0;
+
+  &::after,
+  &::before {
+    background-color: $color-black-40;
+    content: "";
+    height: 1px;
+  }
+
+  &-container {
+    background-image: url(./../../images/customFieldSmall.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &-text {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 8px 20px;
+  }
+
+  &-textNumber {
+    color: $color-orange-100;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  &-textTitle {
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &.m-active::after,
+  &.m-active::before {
+    background-color: $color-orange-100;
+  }
+
+  &.m-active &-container {
+    background-image: url(./../../images/customFieldSmallActive.svg);
+    color: $color-orange-100;
+  }
+
+  &.m-inactive &-container {
+    background-image: url(./../../images/customFieldSmallInactive.svg);
+    color: $color-black-40;
+  }
+}

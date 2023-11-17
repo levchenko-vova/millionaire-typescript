@@ -1,0 +1,37 @@
+h1 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 30px;
+
+  @include media(md-down) {
+    text-align: center;
+  }
+
+  @include media(sm) {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 20px;
+
+  @include media(md-down) {
+    text-align: center;
+  }
+
+  @include media(sm) {
+    font-size: 18px;
+  }
+}
+
+h4 {
+  color: $color-black-40;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 5px;
+}

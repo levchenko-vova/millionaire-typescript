@@ -1,0 +1,426 @@
+{
+  "prizeAmountData": [
+    {
+      "id": 1,
+      "amount": "$500"
+    },
+    {
+      "id": 2,
+      "amount": "$1,000"
+    },
+    {
+      "id": 3,
+      "amount": "$2,000"
+    },
+    {
+      "id": 4,
+      "amount": "$4,000"
+    },
+    {
+      "id": 5,
+      "amount": "$8,000"
+    },
+    {
+      "id": 6,
+      "amount": "$16,000"
+    },
+    {
+      "id": 7,
+      "amount": "$32,000"
+    },
+    {
+      "id": 8,
+      "amount": "$64,000"
+    },
+    {
+      "id": 9,
+      "amount": "$125,000"
+    },
+    {
+      "id": 10,
+      "amount": "$250,000"
+    },
+    {
+      "id": 11,
+      "amount": "$500,000"
+    },
+    {
+      "id": 12,
+      "amount": "$1,000,000"
+    }
+  ],
+  "questionsData": [
+    {
+      "id": 1,
+      "question": "Яка столиця Франції?",
+      "correctAnswers": [1],
+      "answers": [
+        {
+          "id": 1,
+          "version": "A",
+          "answer": "Париж",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "version": "B",
+          "answer": "Лондон",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "version": "C",
+          "answer": "Берлін",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "Мадрид",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Які планети відомі як газові гіганти?",
+      "correctAnswers": [1, 2],
+      "answers": [
+        {
+          "id": 1,
+          "version": "А",
+          "answer": "Юпітер",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "version": "В",
+          "answer": "Сатурн",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "version": "С",
+          "answer": "Марс",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "Венера",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Яка тварина найбільша серед ссавців?",
+      "correctAnswers": [1],
+      "answers": [
+        {
+          "id": 1,
+          "version": "А",
+          "answer": "Синій кит",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "version": "В",
+          "answer": "Слон",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "version": "С",
+          "answer": "Жираф",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "Гіпопотам",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Хто написав 'Кобзар'?",
+      "correctAnswers": [1],
+      "answers": [
+        {
+          "id": 1,
+          "version": "А",
+          "answer": "Тарас Шевченко",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "version": "В",
+          "answer": "Леся Українка",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "version": "С",
+          "answer": "Іван Франко",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "Микола Гоголь",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Найвища гора у світі?",
+      "correctAnswers": [1],
+      "answers": [
+        {
+          "id": 1,
+          "version": "А",
+          "answer": "Еверест",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "version": "В",
+          "answer": "Кіліманджаро",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "version": "С",
+          "answer": "Монблан",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "Аконкагуа",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Скільки океанів у світі?",
+      "correctAnswers": [1],
+      "answers": [
+        {
+          "id": 1,
+          "version": "А",
+          "answer": "5",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "version": "В",
+          "answer": "4",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "version": "С",
+          "answer": "6",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "7",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Яка країна вважається батьківщиною піци?",
+      "correctAnswers": [1],
+      "answers": [
+        {
+          "id": 1,
+          "version": "А",
+          "answer": "Італія",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "version": "В",
+          "answer": "США",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "version": "С",
+          "answer": "Іспанія",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "Франція",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Яка найбільша пустеля у світі?",
+      "correctAnswers": [1],
+      "answers": [
+        {
+          "id": 1,
+          "version": "А",
+          "answer": "Сахара",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "version": "В",
+          "answer": "Атакама",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "version": "С",
+          "answer": "Гобі",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "Аравійська",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Хто написав 'Малий принц'?",
+      "correctAnswers": [1],
+      "answers": [
+        {
+          "id": 1,
+          "version": "А",
+          "answer": "Антуан де Сент-Екзюпері",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "version": "В",
+          "answer": "Габріель Гарсія Маркес",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "version": "С",
+          "answer": "Льюїс Керролл",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "Ернест Хемінгуей",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Які планети належать до земної групи планет Сонячної системи?",
+      "correctAnswers": [1, 2],
+      "answers": [
+        {
+          "id": 1,
+          "version": "A",
+          "answer": "Меркурій",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "version": "B",
+          "answer": "Венера",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "version": "C",
+          "answer": "Юпітер",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "Марс",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Які з цих кольорів є 'теплими'?",
+      "correctAnswers": [2, 3],
+      "answers": [
+        {
+          "id": 1,
+          "version": "A",
+          "answer": "Синій",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "version": "B",
+          "answer": "Червоний",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "version": "C",
+          "answer": "Жовтий",
+          "isCorrect": true
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "Фіолетовий",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Які з цих видів кави містять кавеїн?",
+      "correctAnswers": [1, 2],
+      "answers": [
+        {
+          "id": 1,
+          "version": "A",
+          "answer": "Арабіка",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "version": "B",
+          "answer": "Робуста",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "version": "C",
+          "answer": "Ліберіка",
+          "isCorrect": false
+        },
+        {
+          "id": 4,
+          "version": "D",
+          "answer": "Еспресо",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

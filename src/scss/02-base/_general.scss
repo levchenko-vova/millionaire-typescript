@@ -1,0 +1,62 @@
+// General site styles
+// Be very carefully since it affects all elements and styles!
+@use "sass:list";
+
+html {
+  background: $color-bg;
+  color: $color-text;
+  direction: ltr;
+  font: list.slash($size-font, $size-line) $font-sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  scroll-behavior: smooth;
+  -ms-text-size-adjust: 100%; // stylelint-disable-line
+  -webkit-text-size-adjust: 100%; // stylelint-disable-line
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: $global-content-width-min;
+  overflow-y: scroll;
+  padding: 0.01px 0 0; // Android UI status bar overlap browser window. Reproducible on Samsung S9 Chrome
+  height: 100%;
+}
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    height: -webkit-fill-available;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  // We should include hover on global elements and elements
+  // otherwise iOS will fire hover on first tap, click on second
+  // this is critical for components like back to top button
+  @include hover-supported {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+button {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+img {
+  overflow: hidden;
+}

@@ -1,0 +1,91 @@
+.b-customSnippet {
+  &:hover {
+    cursor: pointer;
+  }
+
+  &-container {
+    background-image: url(./../../images/customField.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 17.102137767220903%;
+    position: relative;
+  }
+
+  &-text {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 0 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  &-textNumber {
+    color: $color-orange-100;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  &-textTitle {
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &.m-correct &-container {
+    background-image: url(./../../images/customFieldCorrect.svg);
+  }
+
+  &.m-correct::before {
+    background-color: $color-green-100;
+  }
+
+  &.m-wrong &-container {
+    background-image: url(./../../images/customFieldWrong.svg);
+  }
+
+  &.m-wrong::before {
+    background-color: $color-red-100;
+  }
+
+  &.m-selected &-container {
+    background-image: url(./../../images/customFieldSelected.svg);
+  }
+
+  &.m-selected::before {
+    background-color: $color-orange-100;
+  }
+
+  &.m-price {
+    margin: 2px 0;
+  }
+
+  &.m-price &-text {
+    padding: 8px 20px;
+  }
+
+  &.m-price &-container {
+    background-image: url(./../../images/customFieldSmall.svg);
+    padding: 0;
+  }
+
+  &.m-price &-text {
+    justify-content: center;
+    position: static;
+  }
+
+  &.m-price.m-active &-container {
+    background-image: url(./../../images/customFieldSmallActive.svg);
+    color: $color-orange-100;
+  }
+
+  &.m-price.m-inactive &-container {
+    background-image: url(./../../images/customFieldSmallInactive.svg);
+    color: $color-black-40;
+  }
+}

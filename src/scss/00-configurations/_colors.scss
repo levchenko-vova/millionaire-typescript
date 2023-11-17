@@ -1,0 +1,31 @@
+$color-orange-120: hsla(25, 80%, 53%, 1);
+$color-orange-100: hsla(25, 100%, 61%, 1);
+$color-orange-80: hsla(25, 100%, 72%, 1);
+$color-orange-5: hsla(25, 100%, 96%, 1);
+
+$color-green-100: hsla(133, 65%, 56%, 1);
+$color-green-5: hsla(133, 65%, 94%, 1);
+
+$color-red-100: hsla(4, 79%, 64%, 1);
+$color-red-5: hsla(4, 79%, 96%, 1);
+
+$color-black-100: hsla(240, 9%, 12%, 1);
+$color-black-40: hsla(240, 9%, 83%, 1);
+$color-black-5: hsla(240, 11%, 96%, 1);
+
+$color-white-100: hsla(0, 0%, 100%, 1);
+
+// Main Colors
+$color-text: $color-black-100;
+$color-bg: $color-white-100;
+
+// Buttons
+$color-button-main-bg: $color-orange-100;
+$color-button-main-border: $color-orange-100;
+$color-button-main-bg-hover: $color-orange-80;
+$color-button-main-border-hover: $color-orange-80;
+$color-button-main-bg-active: $color-orange-120;
+$color-button-main-text: $color-white-100;
+$color-button-main-text-hover: $color-white-100;
+$color-button-main-text-active: $color-white-100;
+$color-button-main-border-active: $color-orange-120;
