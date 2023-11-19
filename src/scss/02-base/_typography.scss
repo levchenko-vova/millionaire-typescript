@@ -7,7 +7,6 @@ h1 {
   @include media(md-down) {
     text-align: center;
   }
-
   @include media(sm) {
     font-size: 32px;
   }
@@ -22,16 +21,21 @@ h2 {
   @include media(md-down) {
     text-align: center;
   }
-
   @include media(sm) {
     font-size: 18px;
   }
 }
-
 h4 {
-  color: $color-black-40;
+  color: $color-black-60;
   font-size: 32px;
   font-weight: 600;
   line-height: 1.2;
   margin: 0 0 5px;
+
+  @include media(md-down) {
+    text-align: center;
+  }
+  @include media(sm) {
+    font-size: 18px;
+  }
 }

@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .l-gameZone {
   background-color: $color-black-5;
   display: flex;
@@ -14,7 +16,7 @@
 
     @include media(lg-up) {
       padding: 100px 70px;
-      width: percentage(1064/1440);
+      width: percentage(math.div(1064, 1440));
     }
   }
 
@@ -28,7 +30,7 @@
     overflow: auto;
 
     @include media(lg-up) {
-      width: percentage(376/1440);
+      width: percentage(math.div(376, 1440));
     }
 
     @include media(md-down) {
